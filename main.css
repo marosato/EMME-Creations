@@ -15,36 +15,38 @@ body {
 
 @media only screen and (min-width: 1024px) {
     body {
-      max-width: 100%;
-      margin: 0 auto;
-      padding: 70px;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 70px;
     }
-  }
-  
-  /* For laptop screens */
-  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* For laptop screens */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
     body {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 15px; /* Padding para agregar espacio entre el contenido y el borde de la página */
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 15px;
     }
-  }
-  
-  /* For tablet screens */
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+/* For tablet screens */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     body {
-      width: 95%; /* adjust the width as needed */
-      margin: 0 auto; /* center the page */
+        max-width: 100%;
+        margin: 0 auto;
+        /* center the page */
     }
-  }
-  
-  /* For mobile screens */
-  @media only screen and (max-width: 767px) {
+}
+
+/* For mobile screens */
+@media only screen and (max-width: 767px) {
     body {
-      width: 100%; /* adjust the width as needed */
-      margin: 0 auto; /* center the page */
+        max-width: 100%;
+        margin: 0 auto;
+        /* center the page */
     }
-  }
+}
 
 
 /*
