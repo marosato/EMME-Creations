@@ -8,18 +8,53 @@
 
 body {
     background-color: var(--bs-body-bg);
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    width: 1200px;
 }
 
-Marron #140408
-Rojo #43071a
-Marron claro #65474e
-Rosa medio oscuro #a46a7a
-Rosa medio claro #e9ded9
-Rosa claro #eee2e4 - Rosa claro #f2edec;
+@media only screen and (min-width: 1024px) {
+    body {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 70px;
+    }
+  }
+  
+  /* For laptop screens */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 15px; /* Padding para agregar espacio entre el contenido y el borde de la página */
+    }
+  }
+  
+  /* For tablet screens */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+      width: 95%; /* adjust the width as needed */
+      margin: 0 auto; /* center the page */
+    }
+  }
+  
+  /* For mobile screens */
+  @media only screen and (max-width: 767px) {
+    body {
+      width: 100%; /* adjust the width as needed */
+      margin: 0 auto; /* center the page */
+    }
+  }
+
+
+/*
+- Marrón: #140408
+- Rojo: #43071a
+- Marrón claro: #65474e
+- Rosa medio oscuro: #a46a7a
+- Rosa medio claro: #e9ded9
+- Rosa claro: #eee2e4 - Rosa claro: #f2edec
+*/
 
 
 * {
