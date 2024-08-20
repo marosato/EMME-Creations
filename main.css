@@ -1,0 +1,60 @@
+:root {
+    --bs-body-bg: rgb(58,7,22) !important;
+    --bs-primary: #43071a !important;
+    --bs-secondary-color: #e7dbdd !important;
+    --bs-tertiary-bg: #161616 !important;
+    /* --bs-font-sans-serif: 'Anton', 'Anton SC', 'Poppins' !important; */
+}
+
+body {
+    background-color: var(--bs-body-bg);
+    margin: 0 auto;
+    padding: 0;
+}
+
+Marron #140408
+Rojo #43071a
+Marron claro #65474e
+Rosa medio oscuro #a46a7a
+Rosa medio claro #e9ded9
+Rosa claro #eee2e4 - Rosa claro #f2edec;
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+head {
+    display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 * {
+    font-family: 'Anton SC' !important;
+    color: var(--bs-secondary-color) !important;
+    letter-spacing: 0.04em;
+}
+
+p {
+    font-family: 'Poppins' !important;
+    color: var(--bs-secondary-color) !important;
+}
+
+
+.bi {
+    color: var(--bs-secondary-color) !important;
+}
+
+
+
+nav, footer {
+    background-color: var(--bs-body-bg) !important;
+    color: var(--bs-secondary-color) !important;
+}
