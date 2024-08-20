@@ -54,6 +54,16 @@ p {
 
 
 
+.jumbotron {
+    background-image: url('img/EMME\ Creations\ -\ Fondos (1).png') !important;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    /* font: 100 5.5rem/1.2 'Poppins', sans-serif;
+    text-align: center; */
+  }
+
+
 nav, footer {
     background-color: var(--bs-body-bg) !important;
     color: var(--bs-secondary-color) !important;
