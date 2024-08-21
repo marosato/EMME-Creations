@@ -104,7 +104,7 @@ footer {
 
 
 .jumbotron {
-    background-image: url('img/EMME\ Creations\ -\ Fondos (1).png') !important;
+    background-image: url('img/Logo\ -\ EMME\ Creations.png') !important;
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -116,7 +116,7 @@ footer {
     position: relative;
 }
 
-.card-video {
+/* .card-video {
     position: absolute;
     top: 0;
     left: 0;
@@ -126,13 +126,23 @@ footer {
     z-index: -1;
 }
 
-.card-header {
+.inicio .card-header {
     position: relative;
     z-index: 1;
+} */
+
+
+.inicio .card-header {
+    background-image: url('img/Logo\ -\ EMME\ Creations.png') !important;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    /* font: 100 5.5rem/1.2 'Poppins', sans-serif;
+    text-align: center; */
 }
 
 .inicio .card-right {
-    background-image: url('img/Logo\ -\ EMME\ Creations.png') !important;
+    background-image: url('img/EMME\ Creations\ -\ Lobo\ Blanco.png') !important;
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -141,56 +151,3 @@ footer {
 }
 
 
-
-
-.pricing-header h1 {
-    text-transform: uppercase;
-}
-
-.pricing-list .card {
-    background-color: var(--bs-secondary-color);
-}
-
-.pricing-list .card h1,
-.pricing-list .card h4,
-.pricing-list .card small {
-    color: var(--bs-tertiary-bg) !important;
-}
-
-.pricing-list .card button {
-    color: var(--bs-secondary-color);
-    background-color: var(--bs-tertiary-bg);
-    border-color: var(--bs-body-bg);
-}
-
-
-.list-unstyled {
-    font-weight: 400;
-    font-style: italic !important;
-}
-
-
-#plan-premium-1,
-#plan-premium-2 {
-    border-width: 5px;
-    border-color: var(--bs-primary) !important;
-    background-color: #c6a15a !important;
-}
-
-#plan-premium-1 button,
-#plan-premium-2 button {
-    border-color: var(--bs-secondary-color) !important;
-}
-
-#plan-premium-1 .border-primary,
-#plan-premium-2 .border-primary {
-    border-color: var(--bs-primary) !important;
-}
-
-#plan-premium-1 .card-header.text-bg-primary {
-    background-color: #c6a15a !important;
-}
-
-#plan-premium-2 .card-header.text-bg-primary {
-    background-color: #c6a15a !important;
-}
