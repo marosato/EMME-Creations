@@ -151,3 +151,22 @@ footer {
 }
 
 
+
+
+.hola {
+    background-image: url('img/Logo\ -\ EMME\ Creations.png') !important;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    /* font: 100 5.5rem/1.2 'Poppins', sans-serif;
+    text-align: center; */
+}
+
+.hola, .hola-2, .hola-3 {
+    background-image: url('img/Logo\ -\ EMME\ Creations.png') !important;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    /* font: 100 5.5rem/1.2 'Poppins', sans-serif;
+    text-align: center; */
+}
