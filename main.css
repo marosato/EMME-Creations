@@ -114,9 +114,9 @@ footer {
 
 .inicio {
     position: relative;
-  }
-  
-  .video-fondo {
+}
+
+.card-video {
     position: absolute;
     top: 0;
     left: 0;
@@ -124,13 +124,12 @@ footer {
     height: 100%;
     object-fit: cover;
     z-index: -1;
-  }
-  
-  .card-header {
+}
+
+.card-header {
     position: relative;
     z-index: 1;
-    /* Estilos adicionales para el card-header */
-  }
+}
 
 .inicio .card-right {
     background-image: url('img/Logo\ -\ EMME\ Creations.png') !important;

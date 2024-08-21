@@ -1,0 +1,150 @@
+:root {
+    --bs-body-bg: #140408 !important;
+    --bs-primary: #43071a !important;
+    --bs-secondary-color: #e9ded9 !important;
+    --bs-tertiary-bg: #43071a !important;
+    /* --bs-font-sans-serif: 'Anton', 'Anton SC', 'Poppins' !important; */
+}
+
+/*
+- Marrón: #140408
+- Rojo: #43071a
+- Marrón claro: #65474e
+- Rosa medio oscuro: #a46a7a
+- Rosa medio claro: #e9ded9
+- Rosa claro: #eee2e4 - Rosa claro: #f2edec
+*/
+
+
+body {
+    background-color: var(--bs-body-bg);
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Escritorio */
+@media only screen and (min-width: 1024px) {
+    body {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 70px;
+    }
+}
+
+/* Laptops */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 70px;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 70px;
+    }
+}
+
+/* Celulares */
+@media only screen and (max-width: 767px) {
+    body {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 25px;
+    }
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+head {
+    display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 * {
+    font-family: 'Anton SC' !important;
+    color: var(--bs-secondary-color) !important;
+    letter-spacing: 0.04em;
+}
+
+p {
+    font-family: 'Poppins' !important;
+    color: var(--bs-secondary-color) !important;
+}
+
+
+
+
+
+
+
+
+
+
+.pricing-header h1 {
+    text-transform: uppercase;
+}
+
+.pricing-list .card {
+    background-color: var(--bs-secondary-color);
+}
+
+.pricing-list .card h1,
+.pricing-list .card h4,
+.pricing-list .card small {
+    color: var(--bs-tertiary-bg) !important;
+}
+
+.pricing-list .card button {
+    color: var(--bs-secondary-color);
+    background-color: var(--bs-tertiary-bg);
+    border-color: var(--bs-body-bg);
+}
+
+
+.list-unstyled {
+    font-weight: 400;
+    font-style: italic !important;
+}
+
+
+#plan-premium-1,
+#plan-premium-2 {
+    border-width: 5px;
+    border-color: var(--bs-primary) !important;
+    background-color: #c6a15a !important;
+}
+
+#plan-premium-1 button,
+#plan-premium-2 button {
+    border-color: var(--bs-secondary-color) !important;
+}
+
+#plan-premium-1 .border-primary,
+#plan-premium-2 .border-primary {
+    border-color: var(--bs-primary) !important;
+}
+
+#plan-premium-1 .card-header.text-bg-primary {
+    background-color: #c6a15a !important;
+}
+
+#plan-premium-2 .card-header.text-bg-primary {
+    background-color: #c6a15a !important;
+}
