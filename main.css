@@ -80,7 +80,7 @@ h5,
 h6 * {
     font-family: 'Anton SC' !important;
     color: var(--bs-secondary-color) !important;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.06em;
 }
 
 p {
