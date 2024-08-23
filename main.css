@@ -165,7 +165,8 @@ footer {
     background-image: url('img/EMME\ Creations\ -\ Lobo\ Blanco.png') !important;
     background-size: cover;
     background-position: center;
-    height: 300px;
+    background-repeat: no-repeat;
+    height: 400px;
     /* font: 100 5.5rem/1.2 'Poppins', sans-serif;
     text-align: center; */
 }
