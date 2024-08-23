@@ -181,18 +181,7 @@ nav .nav-link {
     font-family: var(--bs-font-paragraph) !important;
 }
 
-nav .navbar-buttons .btn {
-    background-color: var(--bs-primary) !important;
-    color: var(--bs-secondary-color) !important;
-    border-color: var(--bs-secondary-color);
-    font-weight: 500;
-}
 
-nav .navbar-buttons .btn:hover {
-    background-color: var(--bs-secondary-color) !important;
-    color: var(--bs-primary) !important;
-    border-color: var(--bs-secondary-color);
-}
 
 nav .navbar-icon svg {
     color: var(--bs-secondary-color) !important;
@@ -204,6 +193,20 @@ nav .navbar-toggler {
     color: var(--bs-secondary-color) !important;
     border-color: var(--bs-secondary-color);
     border: none;
+}
+
+/* REGISTER BUTTONS */
+nav .navbar-buttons .btn, nav .navbar-buttons .btn:hover {
+    background-color: var(--bs-primary) !important;
+    color: var(--bs-secondary-color) !important;
+    border-color: var(--bs-secondary-color);
+    font-weight: 500;
+}
+nav .navbar-buttons .btn:hover {
+    background-color: var(--bs-secondary-color) !important;
+    color: var(--bs-primary) !important;
+    border-color: var(--bs-secondary-color);
+    font-weight: 500;
 }
 
 /*  -----------------------------------
