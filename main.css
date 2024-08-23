@@ -170,6 +170,16 @@ footer {
     text-align: center; */
 }
 
+.card-right {
+    background-image: url('img/EMME\ Creations\ -\ Lobo\ Blanco.png') !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    /* font: 100 5.5rem/1.2 'Poppins', sans-serif;
+    text-align: center; */
+}
+
 
 .hola {
     background-image: url('img/Logo\ -\ EMME\ Creations.png') !important;
