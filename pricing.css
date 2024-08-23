@@ -19,7 +19,7 @@
 
 
 body {
-    background-color: var(--bs-body-bg);
+    background-color: var(--bs-primary) !important;
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
@@ -110,12 +110,12 @@ p {
 .pricing-list .card h1,
 .pricing-list .card h4,
 .pricing-list .card small {
-    color: var(--bs-tertiary-bg) !important;
+    color: var(--bs-primary) !important;
 }
 
 .pricing-list .card button {
     color: var(--bs-secondary-color);
-    background-color: var(--bs-tertiary-bg);
+    background-color: var(--bs-primary);
     border-color: var(--bs-body-bg);
 }
 
@@ -129,7 +129,7 @@ p {
 #plan-premium-1,
 #plan-premium-2 {
     border-width: 5px;
-    border-color: var(--bs-primary) !important;
+    border-color: var(--bs-secondary-color) !important;
     background-color: #c6a15a !important;
 }
 
