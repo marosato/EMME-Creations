@@ -156,18 +156,8 @@ footer {
     background-image: url('img/Logo\ -\ EMME\ Creations.png') !important;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     height: 400px;
-    /* font: 100 5.5rem/1.2 'Poppins', sans-serif;
-    text-align: center; */
-}
-
-.card-header {
-    background-image: url('img/Logo\ -\ EMME\ Creations.png') !important;
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    /* font: 100 5.5rem/1.2 'Poppins', sans-serif;
-    text-align: center; */
 }
 
 .inicio .card-right {
@@ -175,13 +165,13 @@ footer {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 500px;
     /* font: 100 5.5rem/1.2 'Poppins', sans-serif;
     text-align: center; */
 }
 
 
-.hola, .hola-2 {
+.hola {
     background-image: url('img/Logo\ -\ EMME\ Creations.png') !important;
     background-size: cover;
     background-position: center;
@@ -190,7 +180,7 @@ footer {
     text-align: center; */
 }
 
-.inicio .hola-3 {
+.hola-2, .hola-3 {
     background-image: url('img/EMME\ Creations\ -\ Lobo\ Blanco.png') !important;
     background-size: cover;
     background-position: center;
