@@ -129,7 +129,7 @@ p {
 #plan-premium-1,
 #plan-premium-2 {
     border-width: 5px;
-    border-color: var(--bs-secondary-color) !important;
+    border-color: var(--bs-primary) !important;
     background-color: #c6a15a !important;
 }
 
