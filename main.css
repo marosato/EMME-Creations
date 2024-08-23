@@ -202,7 +202,7 @@ nav .navbar-buttons .btn:hover {
 } */
 
 
-.home .card-header {
+.home .card-logo {
     background-image: url('img/Logo\ -\ EMME\ Creations.png') !important;
     background-size: cover;
     background-position: center;
@@ -220,7 +220,7 @@ nav .navbar-buttons .btn:hover {
     text-align: center; */
 }
 
-.card-right {
+.card-tyrell {
     background-image: url('img/EMME\ Creations\ -\ Lobo\ Blanco.png') !important;
     background-size: cover;
     background-position: center;
