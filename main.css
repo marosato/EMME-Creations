@@ -3,6 +3,8 @@
     --bs-primary: #43071a !important;
     --bs-secondary-color: #eee2e4 !important;
     --bs-tertiary-bg: #43071a !important;
+    --bs-font-title: 'Anton' !important;
+    --bs-font-paragraph: 'Poppins' !important;
     /* --bs-font-sans-serif: 'Anton', 'Anton SC', 'Poppins' !important; */
 }
 
@@ -78,13 +80,13 @@ h3,
 h4,
 h5,
 h6 * {
-    font-family: 'Anton SC' !important;
+    font-family: var(--bs-font-title) !important;
     color: var(--bs-secondary-color) !important;
     letter-spacing: 0.06em;
 }
 
 p {
-    font-family: 'Poppins' !important;
+    font-family: var(--bs-font-paragraph) !important;
     color: var(--bs-secondary-color) !important;
 }
 
@@ -109,6 +111,7 @@ nav a,
 nav .nav-link {
     background-color: var(--bs-primary) !important;
     color: var(--bs-secondary-color) !important;
+    font-family: var(--bs-font-paragraph) !important;
 }
 
 nav .navbar-buttons .btn {
