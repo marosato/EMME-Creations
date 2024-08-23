@@ -89,7 +89,9 @@ p {
 }
 
 
-nav, nav a, nav .nav-link {
+nav,
+nav a,
+nav .nav-link {
     background-color: var(--bs-primary) !important;
     color: var(--bs-secondary-color) !important;
 }
@@ -190,11 +192,20 @@ footer {
     text-align: center; */
 }
 
-.hola-2, .hola-3 {
+.hola-2,
+.hola-3 {
     background-image: url('img/EMME\ Creations\ -\ Lobo\ Blanco.png') !important;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 80%;
     height: 300px;
+}
+
+
+
+
+.inicio .text-bg-dark {
+    background-color: var(--bs-primary) !important;
+    color: var(--bs-secondary-color);
 }
