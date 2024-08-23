@@ -2,7 +2,7 @@
     --bs-body-bg: #140408 !important;
     --bs-primary: #43071a !important;
     --bs-secondary-color: #eee2e4 !important;
-    --bs-tertiary-bg: #43071a !important;
+    --bs-tertiary-bg: #65474e !important;
     --bs-font-title: 'Anton' !important;
     --bs-font-paragraph: 'Poppins' !important;
     /* --bs-font-sans-serif: 'Anton', 'Anton SC', 'Poppins' !important; */
@@ -95,7 +95,7 @@ p {
     border-radius: 100%;
     width: 50px;
     height: 50px;
-  }
+}
 
 .btn {
     background-color: var(--bs-primary) !important;
@@ -129,7 +129,10 @@ nav .navbar-brand {
     font-family: var(--bs-font-title) !important;
     letter-spacing: 0.06em;
 }
-nav, nav a, nav .nav-link {
+
+nav,
+nav a,
+nav .nav-link {
     background-color: var(--bs-primary) !important;
     color: var(--bs-secondary-color) !important;
     font-family: var(--bs-font-paragraph) !important;
@@ -156,12 +159,14 @@ nav .navbar-toggler {
 }
 
 /* REGISTER BUTTONS */
-nav .navbar-buttons .btn, nav .navbar-buttons .btn:hover {
+nav .navbar-buttons .btn,
+nav .navbar-buttons .btn:hover {
     background-color: var(--bs-primary) !important;
     color: var(--bs-secondary-color) !important;
     border-color: var(--bs-secondary-color);
     font-weight: 500;
 }
+
 nav .navbar-buttons .btn:hover {
     background-color: var(--bs-secondary-color) !important;
     color: var(--bs-primary) !important;
@@ -182,7 +187,7 @@ nav .navbar-buttons .btn:hover {
     text-align: center; */
 }
 
-.home {
+#home {
     position: relative;
 }
 
@@ -201,8 +206,12 @@ nav .navbar-buttons .btn:hover {
     z-index: 1;
 } */
 
+.home .text-bg-dark {
+    background-color: var(--bs-primary) !important;
+    color: var(--bs-secondary-color);
+}
 
-.home .card-logo {
+#home .card-logo {
     background-image: url('img/Logo\ -\ EMME\ Creations.png') !important;
     background-size: cover;
     background-position: center;
@@ -210,7 +219,7 @@ nav .navbar-buttons .btn:hover {
     height: 400px;
 }
 
-.home .card-right {
+#home .card-right {
     background-image: url('img/EMME\ Creations\ -\ Lobo\ Blanco.png') !important;
     background-size: cover;
     background-position: center;
@@ -229,7 +238,6 @@ nav .navbar-buttons .btn:hover {
     /* font: 100 5.5rem/1.2 'Poppins', sans-serif;
     text-align: center; */
 }
-
 
 .hola {
     background-image: url('img/Logo\ -\ EMME\ Creations.png') !important;
@@ -251,10 +259,28 @@ nav .navbar-buttons .btn:hover {
 }
 
 
-.home .text-bg-dark {
+
+
+
+/*  -------------------------------------------
+    |             S E R V I C E S             |
+    -------------------------------------------  */
+
+#services {
     background-color: var(--bs-primary) !important;
-    color: var(--bs-secondary-color);
 }
+
+
+#services .services-icon {
+    width: 1.6em;
+    height: 1.4em;
+}
+
+
+
+
+
+
 
 
 /*  ---------------------------------------
@@ -265,7 +291,6 @@ footer {
     background-color: var(--bs-primary) !important;
     color: var(--bs-secondary-color) !important;
 }
-
 
 footer .social-media svg {
     width: 24px;
