@@ -37,27 +37,6 @@
 
 <body>
 
-    <script>
-
-        // Navbar Toggler Animation
-        document.addEventListener("DOMContentLoaded", function () {
-            const toggler = document.querySelector(".navbar-toggler");
-            const listIcon = toggler.querySelector(".bi-list");
-            const xIcon = toggler.querySelector(".bi-x");
-
-            toggler.addEventListener("click", function () {
-                if (toggler.getAttribute("aria-expanded") === "true") {
-                    listIcon.style.display = "none";
-                    xIcon.style.display = "block";
-                } else {
-                    listIcon.style.display = "block";
-                    xIcon.style.display = "none";
-                }
-            });
-        });
-    </script>
-
-
     <header>
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container-fluid">
@@ -124,15 +103,13 @@
                         </li>
                     </ul>
                     <div class="navbar-buttons d-grid gap-2 d-md-flex justify-content-md-end">
-                        <a class="btn btn-warning rounded-3" href="#login.html" role="button"> Iniciar Sesión </a>
-                        <a class="btn btn-warning " href="#signup.html" role="button"> Registrarse </a>
+                        <a class="btn btn-warning" href="#login.html" role="button"> Iniciar Sesión </a>
+                        <a class="btn btn-warning" href="#signup.html" role="button"> Registrarse </a>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
-
-
 
     <!-- HOME -->
     <section class="home my-0" id="home">
@@ -508,8 +485,23 @@
 
     <!-- JAVASCRIPT -->
     <script>
+        // Navbar Toggler Animation
+        document.addEventListener("DOMContentLoaded", function () {
+            const toggler = document.querySelector(".navbar-toggler");
+            const listIcon = toggler.querySelector(".bi-list");
+            const xIcon = toggler.querySelector(".bi-x");
 
-
+            toggler.addEventListener("click", function () {
+                if (toggler.getAttribute("aria-expanded") === "true") {
+                    listIcon.style.display = "none";
+                    xIcon.style.display = "block";
+                } else {
+                    listIcon.style.display = "block";
+                    xIcon.style.display = "none";
+                }
+            });
+        });
+        
         // Verifica si un usuario abrió o cerró mi página web
         function handleVisibility() {
             if (document.visibilityState === "visible") {
@@ -519,8 +511,6 @@
             }
         }
         document.addEventListener("visibilitychange", handleVisibility);
-
-
 
     </script>
 
