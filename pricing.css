@@ -1,8 +1,10 @@
 :root {
     --bs-body-bg: #140408 !important;
     --bs-primary: #43071a !important;
-    --bs-secondary-color: #e9ded9 !important;
-    --bs-tertiary-bg: #43071a !important;
+    --bs-secondary-color: #eee2e4 !important;
+    --bs-tertiary-bg: #65474e !important;
+    --bs-font-title: 'Anton' !important;
+    --bs-font-paragraph: 'Poppins' !important;
     /* --bs-font-sans-serif: 'Anton', 'Anton SC', 'Poppins' !important; */
 }
 
