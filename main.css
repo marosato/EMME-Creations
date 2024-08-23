@@ -89,6 +89,21 @@ p {
 }
 
 
+.btn {
+    background-color: var(--bs-primary) !important;
+    color: var(--bs-secondary-color) !important;
+    border-color: var(--bs-secondary-color) !important;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: var(--bs-secondary-color) !important;
+    color: var(--bs-primary) !important;
+    border-color: var(--bs-secondary-color);
+    font-weight: 500;
+}
+
+
 nav,
 nav a,
 nav .nav-link {
@@ -107,7 +122,6 @@ nav .navbar-buttons .btn:hover {
     background-color: var(--bs-secondary-color) !important;
     color: var(--bs-primary) !important;
     border-color: var(--bs-secondary-color);
-
 }
 
 
@@ -134,7 +148,7 @@ footer {
     text-align: center; */
 }
 
-.inicio {
+.home {
     position: relative;
 }
 
@@ -154,7 +168,7 @@ footer {
 } */
 
 
-.inicio .card-header {
+.home .card-header {
     background-image: url('img/Logo\ -\ EMME\ Creations.png') !important;
     background-size: cover;
     background-position: center;
@@ -162,7 +176,7 @@ footer {
     height: 400px;
 }
 
-.inicio .card-right {
+.home .card-right {
     background-image: url('img/EMME\ Creations\ -\ Lobo\ Blanco.png') !important;
     background-size: cover;
     background-position: center;
@@ -205,7 +219,7 @@ footer {
 
 
 
-.inicio .text-bg-dark {
+.home .text-bg-dark {
     background-color: var(--bs-primary) !important;
     color: var(--bs-secondary-color);
 }
