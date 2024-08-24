@@ -135,6 +135,7 @@ nav .navbar-brand {
     background-color: var(--bs-primary) !important;
     color: var(--bs-secondary-color) !important;
     font-family: var(--bs-font-title) !important;
+    font-size: x-large;
     letter-spacing: 0.06em;
 }
 
@@ -190,10 +191,12 @@ nav .navbar-buttons .btn:hover {
     position: relative;
     background-color: var(--bs-body-bg) !important;
 }
+
 #home .home-header {
     background-color: var(--bs-primary) !important;
     color: var(--bs-secondary-color);
 }
+
 #home .card-logo {
     background-image: url('img/Logo\ -\ EMME\ Creations.png') !important;
     background-size: cover;
@@ -201,10 +204,12 @@ nav .navbar-buttons .btn:hover {
     background-repeat: no-repeat;
     height: 400px;
 }
+
 #home .home-card {
     background-color: var(--bs-primary) !important;
     color: var(--bs-secondary-color);
 }
+
 #home .card-tyrell {
     background-image: url('img/EMME\ Creations\ -\ Lobo\ Blanco.png') !important;
     background-size: cover;
@@ -222,6 +227,7 @@ nav .navbar-buttons .btn:hover {
 #services .services-body {
     background-color: var(--bs-primary) !important;
 }
+
 #services .services-icon {
     width: 1.6em;
     height: 1.4em;
@@ -235,9 +241,11 @@ nav .navbar-buttons .btn:hover {
     background-color: var(--bs-primary) !important;
     color: var(--bs-secondary-color) !important;
 }
+
 .footer ul {
     font-family: var(--bs-font-paragraph) !important;
 }
+
 .footer .social-media svg {
     width: 24px;
     height: 24px;
