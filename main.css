@@ -124,14 +124,6 @@ p {
     #services .services-body {
         margin-top: 0;
     }
-
-    .navbar {
-        
-    }
-
-    .navbar-brand {
-        font-size: larger;
-    }
 }
 
 
@@ -143,7 +135,6 @@ nav .navbar-brand {
     background-color: var(--bs-primary) !important;
     color: var(--bs-secondary-color) !important;
     font-family: var(--bs-font-title) !important;
-    font-size: larger;
     letter-spacing: 0.06em;
 }
 
