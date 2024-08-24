@@ -114,16 +114,6 @@ p {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /*  ---------------------------------------
     |             N A V B A R             |
     ---------------------------------------  */
@@ -211,9 +201,10 @@ nav .navbar-buttons .btn:hover {
 
 #home {
     position: relative;
+    background-color: var(--bs-body-bg) !important;
 }
 
-.home .text-bg-dark {
+#home .home-header {
     background-color: var(--bs-primary) !important;
     color: var(--bs-secondary-color);
 }
@@ -226,7 +217,12 @@ nav .navbar-buttons .btn:hover {
     height: 400px;
 }
 
-#home .card-right {
+#home .home-card {
+    background-color: var(--bs-primary) !important;
+    color: var(--bs-secondary-color);
+}
+
+#home .card-tyrell {
     background-image: url('img/EMME\ Creations\ -\ Lobo\ Blanco.png') !important;
     background-size: cover;
     background-position: center;
@@ -235,45 +231,13 @@ nav .navbar-buttons .btn:hover {
     /* font: 100 5.5rem/1.2 'Poppins', sans-serif;
     text-align: center; */
 }
-
-.card-tyrell {
-    background-image: url('img/EMME\ Creations\ -\ Lobo\ Blanco.png') !important;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 500px;
-    /* font: 100 5.5rem/1.2 'Poppins', sans-serif;
-    text-align: center; */
-}
-
-.hola {
-    background-image: url('img/Logo\ -\ EMME\ Creations.png') !important;
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    /* font: 100 5.5rem/1.2 'Poppins', sans-serif;
-    text-align: center; */
-}
-
-.hola-2,
-.hola-3 {
-    background-image: url('img/EMME\ Creations\ -\ Lobo\ Blanco.png') !important;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 80%;
-    height: 300px;
-}
-
-
-
 
 
 /*  -------------------------------------------
     |             S E R V I C E S             |
     -------------------------------------------  */
 
-#services {
+#services .services-body {
     background-color: var(--bs-primary) !important;
 }
 

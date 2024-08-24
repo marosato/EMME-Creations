@@ -132,75 +132,18 @@
     </header>
 
     <!-- HOME -->
-    <section class="home px-4 py-5 my-4 rounded-3 bg-body-tertiary" id="home">
-        <div class="py-4 mt-3">
-            <div class="card-header text-bg-dark p-5 mb-4 rounded-3">
-                <div class="container-fluid py-2">
-                    <h1 class="display-1 fw-bold text-center"> EMME CREATIONS </h1>
-                    <p class="col-md-8 fs-4"> </p>
-                    <!-- <button class="btn btn-primary btn-lg" type="button"> </button> -->
-                </div>
-            </div>
-            <div class="row row-cols-1 row-cols-md-2 g-3 align-items-md-stretch">
-                <!-- First Part -->
-                <div class="col themed-grid-col order-md-1 order-2">
-                    <div class="h-100 p-5 text-bg-dark rounded-3">
-                        <h1 class="display-5 fw-bold"> Acerca de </h1>
-                        <p class="lead">
-                            EMME Creations es una marca especializada en brindar soluciones digitales como la creación
-                            de contenido, el
-                            diseño de páginas web y la gestión de redes sociales.
-                        </p>
-                        <p class="lead">
-                            Con un enfoque en la creatividad y la innovación, se ayuda a cada cliente a destacarse en un
-                            mundo digital en constante evolución.
-                        </p>
-                        <!-- <button class="btn btn-outline-light" type="button">Example button</button> -->
-                    </div>
-                </div>
-                <div class="col themed-grid-col order-md-1 order-1">
-                    <div class="card-logo h-100 p-5 text-bg-dark rounded-3">
-                        <h1 class="display-5 fw-bold"> </h1>
-                        <p class="lead"> </p>
-                    </div>
-                </div>
-                <!-- Second Part -->
-                <div class="col themed-grid-col order-md-4 order-4">
-                    <div class="h-100 p-5 text-bg-dark rounded-3">
-                        <h1 class="display-5 fw-bold"> Conocé a Tyrell 🐺 </h1>
-                        <p class="lead">
-                            Es un majestuoso lobo blanco. Sus ojos, llenos de misterio y profundidad, revelan una
-                            mezcla
-                            perfecta de nobleza y
-                            serenidad. Tyrell tiene un corazón noble y leal, siempre listo para proteger y brindar
-                            compañía. Su pelaje blanco como la nieve y su carácter valiente lo convierten en un
-                            ser único e inigualable.
-                        </p>
-                        <p class="lead"> ¡Bienvenido a la manada, Tyrell! 🐾 </p>
-                        <!-- <button class="btn btn-outline-light" type="button">Example button</button> -->
-                    </div>
-                </div>
-                <div class="col themed-grid-col order-md-3 order-3">
-                    <div class="card-tyrell p-5 text-bg-dark rounded-3"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
     <section class="home bg-body-tertiary py-4 px-4 rounded-3" id="home">
-        <div class="p-5 mb-4 rounded-3 text-bg-dark">
-            <div class="card-header container-fluid py-5">
+        <div class="home-header p-5 mb-4 rounded-3">
+            <div class="container-fluid py-5">
                 <h1 class="display-1 fw-bold text-center"> EMME CREATIONS </h1>
                 <!-- <p class="col-md-8 fs-4"></p>
                 <button class="btn btn-primary btn-lg" type="button"> </button> -->
             </div>
         </div>
-
         <div class="row row-cols-1 row-cols-md-2 g-3 align-items-md-stretch">
             <!-- First Part -->
             <div class="col themed-grid-col order-md-1 order-2">
-                <div class="h-100 p-5 text-bg-dark rounded-3">
+                <div class="home-card h-100 p-5 rounded-3">
                     <h2 class="display-5 fw-bold"> Acerca de </h2>
                     <p class="lead">
                         EMME Creations es una marca especializada en brindar soluciones digitales como la creación
@@ -214,7 +157,7 @@
                 </div>
             </div>
             <div class="col themed-grid-col order-md-1 order-1">
-                <div class="card-logo p-5 bg-body-tertiary border rounded-3">
+                <div class="card-logo p-5 bg-body-tertiary rounded-3">
                     <!-- <h2 class="display-5 fw-bold"></h2>
                     <p class="lead"></p>
                     <button class="btn btn-outline-secondary" type="button">Example button</button> -->
@@ -222,7 +165,7 @@
             </div>
             <!-- Second Part -->
             <div class="col themed-grid-col order-md-4 order-4">
-                <div class="h-100 p-5 text-bg-dark rounded-3">
+                <div class="home-card h-100 p-5 text-bg-dark rounded-3">
                     <h1 class="display-5 fw-bold"> Conocé a Tyrell 🐺 </h1>
                     <p class="lead">
                         Es un majestuoso lobo blanco. Sus ojos, llenos de misterio y profundidad, revelan una
@@ -238,6 +181,83 @@
             </div>
             <div class="col themed-grid-col order-md-3 order-3">
                 <div class="card-tyrell p-5 text-bg-dark rounded-3"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services py-4 px-4" id="services">
+        <div class="services-body p-5 mb-4 rounded-3">
+            <div class="card-header container-fluid py-5">
+                <h1 class="display-5 fw-bold pb-2 border-bottom py-5"> SERVICIOS </h1>
+                <!-- <p class="col-md-8 fs-4"></p>
+                <button class="btn btn-primary btn-lg" type="button"> </button> -->
+                <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                    <div class="col d-flex align-items-start">
+                        <div
+                            class="services-icon icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-palette-fill"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M12.433 10.07C14.133 10.585 16 11.15 16 8a8 8 0 1 0-8 8c1.996 0 1.826-1.504 1.649-3.08-.124-1.101-.252-2.237.351-2.92.465-.527 1.42-.237 2.433.07M8 5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m4.5 3a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3M5 6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m.5 6.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="fs-2"> Creación de Contenido </h3>
+                            <p>
+                                Se elabora contenido visual y textual diseñado para captar la atención y participación
+                                del
+                                público. Cada post se realiza con la finalidad de atraer y retener el interés de la
+                                audiencia.
+                            </p>
+                            <a href="pricing.html" class="btn btn-primary">
+                                Elige tu plan
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <div
+                            class="services-icon icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-person-fill-gear"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-9 8c0 1 1 1 1 1h5.256A4.5 4.5 0 0 1 8 12.5a4.5 4.5 0 0 1 1.544-3.393Q8.844 9.002 8 9c-5 0-6 3-6 4m9.886-3.54c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382zM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="fs-2"> Gestión de Redes Sociales </h3>
+                            <p>
+                                Se administran y mejoran los perfiles en redes sociales con el objetivo de alcanzar a
+                                más
+                                usuarios y fomentar una mayor interacción con la audiencia.
+                            </p>
+                            <a href="pricing.html" class="btn btn-primary">
+                                Elige tu plan
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <div
+                            class="services-icon icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-globe"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="fs-2"> Creación de Sitios Web </h3>
+                            <p>
+                                Se desarrollan sitios web atractivos y funcionales para garantizar que quienes los
+                                visiten
+                                tengan una experiencia cómoda.
+                            </p>
+                            <a href="pricing.html" class="btn btn-primary">
+                                Elige tu plan
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -355,7 +375,6 @@
     </div> -->
 
 
-
     <!-- <section class="container col-xxl-8 px-4" id="home"> -->
     <!-- <section class="col-xxl-8 px-4" id="home">
         <div class="row flex-lg-row-reverse align-items-center g-5">
@@ -382,79 +401,138 @@
         </div>
     </section> -->
 
+    <section class="services py-4 px-4" id="services">
+        <div class="services-body p-5 mb-4 rounded-3">
+            <div class="card-header container-fluid py-5">
+                <div class="row">
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5> Sección </h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2">
+                                <a href="#home" class="nav-link p-0 text-body-secondary"> Inicio </a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="#services" class="nav-link p-0 text-body-secondary"> Servicios </a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="#clients" class="nav-link p-0 text-body-secondary"> Clientes </a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="pricing.html" class="nav-link p-0 text-body-secondary" target="_blank"> Planes
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
 
-
-    <!-- SERVICES -->
-    <!-- <section class="container px-4 py-5" id="services"> -->
-    <section class="services container rounded-3" id="services">
-        <div class="px-4 py-5 my-5 rounded-3">
-            <h1 class="display-5 fw-bold pb-2 border-bottom py-5"> Servicios </h1>
-            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-                <div class="col d-flex align-items-start">
-                    <div
-                        class="services-icon icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-palette-fill"
-                            viewBox="0 0 16 16">
-                            <path
-                                d="M12.433 10.07C14.133 10.585 16 11.15 16 8a8 8 0 1 0-8 8c1.996 0 1.826-1.504 1.649-3.08-.124-1.101-.252-2.237.351-2.92.465-.527 1.42-.237 2.433.07M8 5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m4.5 3a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3M5 6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m.5 6.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3" />
-                        </svg>
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5> Sección </h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2">
+                                <a href="#home" class="nav-link p-0 text-body-secondary"> Inicio </a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="#services" class="nav-link p-0 text-body-secondary"> Servicios </a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="#clients" class="nav-link p-0 text-body-secondary"> Clientes </a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="pricing.html" class="nav-link p-0 text-body-secondary" target="_blank"> Planes
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                    <div>
-                        <h3 class="fs-2"> Creación de Contenido </h3>
-                        <p>
-                            Se elabora contenido visual y textual diseñado para captar la atención y participación
-                            del
-                            público. Cada post se realiza con la finalidad de atraer y retener el interés de la
-                            audiencia.
-                        </p>
-                        <a href="pricing.html" class="btn btn-primary">
-                            Elige tu plan
-                        </a>
-                    </div>
-                </div>
-                <div class="col d-flex align-items-start">
-                    <div
-                        class="services-icon icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-person-fill-gear"
-                            viewBox="0 0 16 16">
-                            <path
-                                d="M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-9 8c0 1 1 1 1 1h5.256A4.5 4.5 0 0 1 8 12.5a4.5 4.5 0 0 1 1.544-3.393Q8.844 9.002 8 9c-5 0-6 3-6 4m9.886-3.54c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382zM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0" />
-                        </svg>
-                    </div>
-                    <div>
-                        <h3 class="fs-2"> Gestión de Redes Sociales </h3>
-                        <p>
-                            Se administran y mejoran los perfiles en redes sociales con el objetivo de alcanzar a
-                            más
-                            usuarios y fomentar una mayor interacción con la audiencia.
-                        </p>
-                        <a href="pricing.html" class="btn btn-primary">
-                            Elige tu plan
-                        </a>
-                    </div>
-                </div>
-                <div class="col d-flex align-items-start">
-                    <div
-                        class="services-icon icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-globe"
-                            viewBox="0 0 16 16">
-                            <path
-                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z" />
-                        </svg>
-                    </div>
-                    <div>
-                        <h3 class="fs-2"> Creación de Sitios Web </h3>
-                        <p>
-                            Se desarrollan sitios web atractivos y funcionales para garantizar que quienes los
-                            visiten
-                            tengan una experiencia cómoda.
-                        </p>
-                        <a href="pricing.html" class="btn btn-primary">
-                            Elige tu plan
-                        </a>
+                    <!-- <div class="col-6 col-md-2 mb-3">
+                            <h5>Section</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                            </ul>
+                        </div> -->
+                    <div class="col-md-5 offset-md-1 mb-3">
+                        <form>
+                            <h5> Suscribete al boletín </h5>
+                            <p> Resumen mensual de las novedades.</p>
+                            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                                <label for="newsletter1" class="visually-hidden"> Correo electrónico </label>
+                                <input id="newsletter1" type="text" class="form-control"
+                                    placeholder="Correo electrónico">
+                                <button class="btn btn-primary" type="button"> Suscribirse </button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+
+    <section class="services py-4 px-4" id="services">
+        <div class="services-body p-5 mb-4 rounded-3">
+            <div class="row">
+                <div class="col-6 col-md-2 mb-3">
+                    <h5> Sección </h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">
+                            <a href="#home" class="nav-link p-0 text-body-secondary"> Inicio </a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#services" class="nav-link p-0 text-body-secondary"> Servicios </a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#clients" class="nav-link p-0 text-body-secondary"> Clientes </a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="pricing.html" class="nav-link p-0 text-body-secondary" target="_blank"> Planes
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5> Sección </h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">
+                            <a href="#home" class="nav-link p-0 text-body-secondary"> Inicio </a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#services" class="nav-link p-0 text-body-secondary"> Servicios </a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#clients" class="nav-link p-0 text-body-secondary"> Clientes </a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="pricing.html" class="nav-link p-0 text-body-secondary" target="_blank"> Planes
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- <div class="col-6 col-md-2 mb-3">
+                            <h5>Section</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                            </ul>
+                        </div> -->
+                <div class="col-md-5 offset-md-1 mb-3">
+                    <form>
+                        <h5> Suscribete al boletín </h5>
+                        <p> Resumen mensual de las novedades.</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden"> Correo electrónico </label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Correo electrónico">
+                            <button class="btn btn-primary" type="button"> Suscribirse </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
         </div>
     </section>
 
