@@ -192,9 +192,7 @@ nav .navbar-buttons .btn:hover {
     text-align: center; */
 }
 
-#home {
-    position: relative;
-}
+
 
 /* .card-video {
     position: absolute;
@@ -210,6 +208,10 @@ nav .navbar-buttons .btn:hover {
     position: relative;
     z-index: 1;
 } */
+
+#home {
+    position: relative;
+}
 
 .home .text-bg-dark {
     background-color: var(--bs-primary) !important;
@@ -282,12 +284,6 @@ nav .navbar-buttons .btn:hover {
 }
 
 
-
-
-
-
-
-
 /*  ---------------------------------------
     |             F O O T E R             |
     ---------------------------------------  */
@@ -295,6 +291,11 @@ nav .navbar-buttons .btn:hover {
 footer {
     background-color: var(--bs-primary) !important;
     color: var(--bs-secondary-color) !important;
+    padding: 90px;
+}
+
+footer ul {
+    font-family: var(--bs-font-paragraph) !important;
 }
 
 footer .social-media svg {
