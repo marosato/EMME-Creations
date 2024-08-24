@@ -240,29 +240,24 @@ nav .navbar-buttons .btn:hover {
 #services .services-body {
     background-color: var(--bs-primary) !important;
 }
-
-
 #services .services-icon {
     width: 1.6em;
     height: 1.4em;
 }
 
-
 /*  ---------------------------------------
     |             F O O T E R             |
     ---------------------------------------  */
 
-footer {
+.footer .footer-body {
     background-color: var(--bs-primary) !important;
     color: var(--bs-secondary-color) !important;
-    padding: 90px;
 }
-
-footer ul {
+.footer ul {
     font-family: var(--bs-font-paragraph) !important;
 }
 
-footer .social-media svg {
+.footer .social-media svg {
     width: 24px;
     height: 24px;
 }
