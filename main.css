@@ -17,52 +17,15 @@
 - Rosa claro: #eee2e4 - Rosa claro: #f2edec
 */
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
 
 body {
     background-color: var(--bs-body-bg);
     margin: 0 auto;
     padding: 0;
-    box-sizing: border-box;
-}
-
-/* Escritorio */
-@media only screen and (min-width: 1024px) {
-    body {
-        max-width: 100%;
-        margin: 0 auto;
-        padding: 70px;
-    }
-}
-
-/* Laptops */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-    body {
-        max-width: 100%;
-        margin: 0 auto;
-        padding: 70px;
-    }
-}
-
-/* Tablet */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    body {
-        max-width: 100%;
-        margin: 0 auto;
-        padding: 70px;
-    }
-}
-
-/* Celulares */
-@media only screen and (max-width: 767px) {
-    body {
-        max-width: 100%;
-        margin: 0 auto;
-        padding: 25px;
-    }
-}
-
-
-* {
     box-sizing: border-box;
 }
 
@@ -111,13 +74,55 @@ p {
     font-weight: 500;
 }
 
-
-
-
-
 .bi {
     color: var(--bs-secondary-color) !important;
 }
+
+/* Escritorio */
+@media only screen and (min-width: 1024px) {
+    body {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+
+/* Laptops */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 70px;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 70px;
+    }
+}
+
+/* Celulares */
+@media only screen and (max-width: 767px) {
+    body {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /*  ---------------------------------------
     |             N A V B A R             |
