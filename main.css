@@ -117,6 +117,10 @@ p {
         padding: 10px;
     }
 
+    #home {
+        margin-top: 8px;
+    }
+
     #services .services-body {
         margin-top: 0;
     }
