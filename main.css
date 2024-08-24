@@ -116,6 +116,10 @@ p {
         margin: 0 auto;
         padding: 10px;
     }
+
+    #services .services-body {
+        margin-top: 0;
+    }
 }
 
 
@@ -244,7 +248,7 @@ nav .navbar-buttons .btn:hover {
 
 #services .services-body {
     background-color: var(--bs-primary) !important;
-    margin-top: 80px;
+
 }
 
 #services .services-icon {
