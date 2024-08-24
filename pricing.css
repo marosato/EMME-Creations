@@ -19,7 +19,7 @@
 
 
 body {
-    background-color: var(--bs-primary) !important;
+    background-color: var(--bs-body-bg) !important;
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
