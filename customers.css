@@ -1,0 +1,151 @@
+:root {
+    --bs-body-bg: #140408 !important;
+    --bs-primary: #43071a !important;
+    --bs-secondary-color: #eee2e4 !important;
+    --bs-tertiary-bg: #65474e !important;
+    --bs-font-title: 'Anton' !important;
+    --bs-font-paragraph: 'Poppins' !important;
+    /* --bs-font-sans-serif: 'Anton', 'Anton SC', 'Poppins' !important; */
+}
+
+/*
+- Marrón: #140408
+- Rojo: #43071a
+- Marrón claro: #65474e
+- Rosa medio oscuro: #a46a7a
+- Rosa medio claro: #e9ded9
+- Rosa claro: #eee2e4 - Rosa claro: #f2edec
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: var(--bs-body-bg);
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+head {
+    display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 * {
+    font-family: var(--bs-font-title) !important;
+    color: var(--bs-secondary-color) !important;
+    letter-spacing: 0.06em;
+}
+
+p {
+    font-family: var(--bs-font-paragraph) !important;
+    color: var(--bs-secondary-color) !important;
+}
+
+
+#logo {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+
+/* Escritorio */
+@media only screen and (min-width: 1024px) {
+    body {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .home {
+        margin-top: 40px;
+    }
+}
+
+/* Laptops */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 70px;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 40px;
+    }
+}
+
+/* Celulares */
+@media only screen and (max-width: 767px) {
+    body {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    #home {
+        margin-top: 11px;
+    }
+
+    #services .services-body {
+        margin-top: 0;
+    }
+}
+
+
+
+
+
+.customers {
+    background-color: var(--bs-primary);
+    background-image: url('clients\Luma Seguro\Luma Seguro - Logo.jpg') !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.customers-header svg {
+    width: 24px;
+    height: 24px;
+}
+
+
+.customers-header .bi {
+    color: var(--bs-primary) !important;
+    width: 24px;
+    height: 24px;
+}
+
+.customers-header .btn {
+    background-color: var(--bs-primary);
+    color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    font-weight: 400;
+}
+
+.customers-header .btn:hover {
+    background-color: var(--bs-secondary-color);
+    color: var(--bs-primary) !important;
+    border-color: var(--bs-secondary-color);
+    font-weight: 400;
+}
+
+
