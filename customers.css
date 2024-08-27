@@ -136,10 +136,7 @@ p {
     background-color: var(--bs-secondary-color) !important;
 }
 
-.customers-header svg {
-    width: 24px;
-    height: 24px;
-}
+
 
 .customers-header .bi {
     color: var(--bs-secondary-color) !important;
