@@ -110,15 +110,30 @@ p {
 }
 
 
-
-
+/*  -----------------------------------
+    |             H O M E             |
+    -----------------------------------  */
 
 .customers {
-    background-color: var(--bs-primary);
-    background-image: url('clients\Luma Seguro\Luma Seguro - Logo.jpg') !important;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    position: relative;
+}
+
+.customers .customers-header {
+    background-color: var(--bs-primary) !important;
+    color: var(--bs-secondary-color);
+}
+
+.album .album-body {
+    background-color: var(--bs-primary) !important;
+}
+
+.album .card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.customers-header {
+    background-color: var(--bs-secondary-color) !important;
 }
 
 .customers-header svg {
@@ -145,27 +160,3 @@ p {
     border-color: var(--bs-secondary-color);
     font-weight: 400;
 }
-
-.album .album-body {
-    background-color: var(--bs-primary) !important;
-}
-
-.album .card-img-top {
-    width: 100%;
-    height: auto;
-}
-
-/*  -----------------------------------
-    |             H O M E             |
-    -----------------------------------  */
-
-#customers {
-    position: relative;
-    background-color: var(--bs-primary) !important;
-}
-
-#customers .customers-header {
-    background-color: var(--bs-primary) !important;
-    color: var(--bs-secondary-color);
-}
-
