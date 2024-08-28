@@ -123,20 +123,14 @@ p {
     color: var(--bs-secondary-color);
 }
 
-.album .album-body {
-    background-color: var(--bs-primary) !important;
-}
-
-.album .card-img-top {
-    width: 100%;
-    height: auto;
+.customers .card-logo {
+    width: auto;
+    height: 200px;
 }
 
 .customers-header {
     background-color: var(--bs-secondary-color) !important;
 }
-
-
 
 .customers-header .bi {
     color: var(--bs-secondary-color) !important;
@@ -156,4 +150,19 @@ p {
     color: var(--bs-primary) !important;
     border-color: var(--bs-secondary-color);
     font-weight: 400;
+}
+
+.album .album-body {
+    background-color: var(--bs-primary) !important;
+}
+
+.album .card {
+    border-width: 0;
+    border-radius: 0;
+}
+
+.album .card-img-top {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
 }
