@@ -418,19 +418,14 @@
     <!-- TESTIMONIALS -->
 
     <div class="container">
-        <div class="controls">
-            <button class="control prev" onclick="prevTestimonial()">&lt;</button>
-            <button class="control next" onclick="nextTestimonial()">&gt;</button>
-        </div>
-        
         <h2> Testimonios </h2>
         <div class="testimonials">
             <div class="testimonial active">
                 <div class="testimonial-author">
                     <img src="clients\Luma Seguro\Luma Seguro - Logo.jpg" alt="Luma Seguro">
                     <div>
-                        <span class="name">Jane D</span>
-                        <span class="title">CEO</span>
+                        <span class="name"> Luma Seguro </span>
+                        <span class="title"> Asesor de Seguros </span>
                     </div>
                 </div>
                 <!-- <div class="stars">
@@ -441,9 +436,8 @@
                     <i class="star fas fa-star"></i>
                 </div> -->
                 <div class="testimonial-content">
-                    Pagedone is simply the best tool of investment in the market right now.
+                    ...
                 </div>
-
             </div>
             <div class="testimonial">
                 <div class="stars">
@@ -484,6 +478,10 @@
                     </div>
                 </div>
             </div>
+            <div class="controls">
+                <button class="control prev" onclick="prevTestimonial()">&lt;</button>
+                <button class="control next" onclick="nextTestimonial()">&gt;</button>
+            </div>
         </div>
     </div>
 
@@ -506,65 +504,7 @@
 
 
 
-
-    <div>
-        <div class="w3-container">
-            <h2>Slideshow Indicators</h2>
-            <p>An example of using buttons to indicate how many slides there are in the slideshow, and which slide the
-                user
-                is currently viewing.</p>
-        </div>
-
-        <div class="w3-content" style="max-width:800px">
-            <img class="mySlides" src="clients\Luma Seguro\Luma Seguro - Logo.jpg" style="width: 50%">
-            <img class="mySlides" src="clients\Luma Seguro\Luma Seguro - Logo (Transparent).png" style="width: 50%">
-            <img class="mySlides" src="img_mountains_wide.jpg" style="width:100%">
-        </div>
-
-        <div class="w3-center">
-            <div class="w3-section">
-                <button class="w3-button w3-light-grey" onclick="plusDivs(-1)"> ❮ Prev </button>
-                <button class="w3-button w3-light-grey" onclick="plusDivs(1)"> Next ❯ </button>
-            </div>
-            <button class="w3-button demo" onclick="currentDiv(1)">1</button>
-            <button class="w3-button demo" onclick="currentDiv(2)">2</button>
-            <button class="w3-button demo" onclick="currentDiv(3)">3</button>
-        </div>
-
-        <script>
-            var slideIndex = 1;
-            showDivs(slideIndex);
-
-            function plusDivs(n) {
-                showDivs(slideIndex += n);
-            }
-
-            function currentDiv(n) {
-                showDivs(slideIndex = n);
-            }
-
-            function showDivs(n) {
-                var i;
-                var x = document.getElementsByClassName("mySlides");
-                var dots = document.getElementsByClassName("demo");
-                if (n > x.length) { slideIndex = 1 }
-                if (n < 1) { slideIndex = x.length }
-                for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none";
-                }
-                for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" w3-red", "");
-                }
-                x[slideIndex - 1].style.display = "block";
-                dots[slideIndex - 1].className += " w3-red";
-            }
-        </script>
-
-    </div>
-
-
-
-    <div class="testimonial my-5">
+    <!-- <div class="testimonial my-5">
         <div class="p-5 text-center bg-body-tertiary rounded-3">
             <svg class="bi mt-4 mb-3" width="100" height="100">
                 <use xlink:href="#bootstrap"></use>
@@ -614,9 +554,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <div class="card text-center" style="width: 18rem;">
+
+    <!-- <div class="card text-center" style="width: 18rem;">
         <img src="clients\Luma Seguro\Luma Seguro - Logo.jpg" class="card-img-top rounded-circle" alt="...">
         <div class="card-body">
             <h5 class="card-title"> Luma Seguro </h5>
@@ -643,10 +584,10 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </div> -->
 
 
-    <section class="card mt-4">
+    <!-- <section class="card mt-4">
         <div class="card-body">
             <img src="img/Logo - EMME Creations.png" class="card-img-top rounded-circle" alt="..." style="width: 70px">
 
@@ -691,7 +632,7 @@
             </div>
 
         </div>
-    </section>
+    </section> -->
 
 
 
