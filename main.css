@@ -253,10 +253,6 @@ nav .navbar-buttons .btn:hover {
 
 
 
-.feature {
-    background-color: violet;
-}
-
 
 .services {
     background-color: var(--bs-primary) !important;
