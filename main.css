@@ -264,10 +264,11 @@ nav .navbar-buttons .btn:hover {
 }
 
 .feature .feature-icon svg {
-    width: 1em;
-    height: 1em;
+    width: 1.4em;
+    height: 1.4em;
     color: var(--bs-primary) !important;
 }
+
 
 
 

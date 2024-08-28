@@ -240,7 +240,7 @@
 
     <!-- SERVICES -->
     <section class="services px-4 py-5 rounded-3" id="services">
-        <h1 class="display-5 fw-bold pb-2 py-0 text-center"> Amplia gama de servicios </h1>
+        <h1 class="display-5 fw-bold pb-2 py-0 text-center"> Ofrece una amplia gama de servicios </h1>
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-2 text-center">
             <div class="col-md-6">
                 <div class="feature h-100 p-5 border rounded-3">
@@ -288,8 +288,7 @@
             </div>
             <div class="col-md-6">
                 <div class="feature h-100 p-5 border rounded-3">
-                    <div
-                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-person-fill-gear"
                             viewBox="0 0 16 16">
                             <path
@@ -311,8 +310,7 @@
             </div>
             <div class="col-md-6">
                 <div class="feature h-100 p-5 border rounded-3">
-                    <div
-                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-globe2"
                             viewBox="0 0 16 16">
                             <path
@@ -340,12 +338,12 @@
 
 
     <!-- SERVICES -->
-    <section class="services py-0 px-0 mb-3 rounded-3" id="services">
+    <!-- <section class="services py-0 px-0 mb-3 rounded-3" id="services">
         <div class="services-body p-5 rounded-3">
             <div class="container-fluid py-0">
                 <h1 class="display-5 fw-bold pb-2 border-bottom py-0"> SERVICIOS </h1>
                 <!-- <p class="col-md-8 fs-4"></p>
-                <button class="btn btn-primary btn-lg" type="button"> </button> -->
+                <button class="btn btn-primary btn-lg" type="button"> </button> --
                 <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
                     <div class="col d-flex align-items-start">
                         <div
@@ -414,8 +412,148 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
+
+    <!-- TESTIMONIALS -->
+
+    <div>
+        <div class="w3-container">
+            <h2>Slideshow Indicators</h2>
+            <p>An example of using buttons to indicate how many slides there are in the slideshow, and which slide the
+                user
+                is currently viewing.</p>
+        </div>
+
+        <div class="w3-content" style="max-width:800px">
+            <img class="mySlides" src="clients\Luma Seguro\Luma Seguro - Logo.jpg" style="width: 50%">
+            <img class="mySlides" src="clients\Luma Seguro\Luma Seguro - Logo (Transparent).png" style="width: 50%">
+            <img class="mySlides" src="img_mountains_wide.jpg" style="width:100%">
+        </div>
+
+        <div class="w3-center">
+            <div class="w3-section">
+                <button class="w3-button w3-light-grey" onclick="plusDivs(-1)"> ❮ Prev </button>
+                <button class="w3-button w3-light-grey" onclick="plusDivs(1)"> Next ❯ </button>
+            </div>
+            <button class="w3-button demo" onclick="currentDiv(1)">1</button>
+            <button class="w3-button demo" onclick="currentDiv(2)">2</button>
+            <button class="w3-button demo" onclick="currentDiv(3)">3</button>
+        </div>
+
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+                showDivs(slideIndex += n);
+            }
+
+            function currentDiv(n) {
+                showDivs(slideIndex = n);
+            }
+
+            function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("demo");
+                if (n > x.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = x.length }
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" w3-red", "");
+                }
+                x[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " w3-red";
+            }
+        </script>
+
+    </div>
+
+
+
+    <div class="testimonial my-5">
+        <div class="p-5 text-center bg-body-tertiary rounded-3">
+            <svg class="bi mt-4 mb-3" width="100" height="100">
+                <use xlink:href="#bootstrap"></use>
+            </svg>
+            <h1 class="text-body-emphasis"> Lo que sus clientes dicen </h1>
+            <p class="col-lg-8 mx-auto fs-5 text-muted"> </p>
+            <div class="d-inline-flex gap-2 mb-5">
+                <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
+                    Call to action
+                    <svg class="bi ms-2" width="24" height="24">
+                        <use xlink:href="#arrow-right-short"></use>
+                    </svg>
+                </button>
+                <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
+                    Secondary link
+                </button>
+            </div>
+
+
+            <div class="card text-center" style="width: 18rem;">
+                <img src="clients\Luma Seguro\Luma Seguro - Logo.jpg" class="card-img-top rounded-circle" alt="..."
+                    style="width: 100px; height: 100px;">
+                <div class="card-body">
+                    <h5 class="card-title"> Luma Seguro </h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary"> Asesor de Seguros </h6>
+                    <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <ul class="nav col-md-4 justify-content-center list-unstyled d-flex">
+                        <li class="ms-3">
+                            <a href="https://www.facebook.com/emmecreations.fb/" class="card-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="ms-3">
+                            <a href="https://www.instagram.com/emmecreations.ig/" class="card-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card text-center" style="width: 18rem;">
+        <img src="clients\Luma Seguro\Luma Seguro - Logo.jpg" class="card-img-top rounded-circle" alt="...">
+        <div class="card-body">
+            <h5 class="card-title"> Luma Seguro </h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary"> Asesor de Seguros </h6>
+            <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <ul class="nav col-md-4 justify-content-center list-unstyled d-flex">
+                <li class="ms-3">
+                    <a href="https://www.facebook.com/emmecreations.fb/" class="card-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="ms-3">
+                    <a href="https://www.instagram.com/emmecreations.ig/" class="card-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
 
 
     <section class="card mt-4">
@@ -425,9 +563,7 @@
             <h5 class="card-title mt-4"> Luma Seguro </h5>
             <h6 class="card-subtitle mb-2 text-body-secondary"> Asesor de Seguros </h6>
             <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt fugiat deleniti maxime iste blanditiis
-                nam inventore, numquam illo ullam cum facilis, voluptas nobis fuga consectetur sit consequuntur
-                repellat, architecto adipisci.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
                 <li class="ms-3">
@@ -466,9 +602,6 @@
 
         </div>
     </section>
-
-
-
 
 
 
