@@ -271,7 +271,83 @@ nav .navbar-buttons .btn:hover {
 
 
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
 
+  .testimonials {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .testimonial {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .testimonial.active {
+    display: block;
+  }
+
+  .testimonial-content {
+    margin-bottom: 10px;
+  }
+
+  .testimonial-author {
+    display: flex;
+    align-items: center;
+  }
+
+  .testimonial-author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .testimonial-author .name {
+    font-weight: bold;
+  }
+
+  .testimonial-author .title {
+    font-size: 14px;
+    color: #777;
+  }
+
+  .stars {
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  .star {
+    font-size: 20px;
+    color: #ffc107;
+  }
+
+  .controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .control {
+    padding: 10px 15px;
+    background-color: #eee;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .control:hover {
+    background-color: #ddd;
+  }
 
 
 

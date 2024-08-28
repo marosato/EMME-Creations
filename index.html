@@ -417,6 +417,96 @@
 
     <!-- TESTIMONIALS -->
 
+    <div class="container">
+        <div class="controls">
+            <button class="control prev" onclick="prevTestimonial()">&lt;</button>
+            <button class="control next" onclick="nextTestimonial()">&gt;</button>
+        </div>
+        
+        <h2> Testimonios </h2>
+        <div class="testimonials">
+            <div class="testimonial active">
+                <div class="testimonial-author">
+                    <img src="clients\Luma Seguro\Luma Seguro - Logo.jpg" alt="Luma Seguro">
+                    <div>
+                        <span class="name">Jane D</span>
+                        <span class="title">CEO</span>
+                    </div>
+                </div>
+                <!-- <div class="stars">
+                    <i class="star fas fa-star"></i>
+                    <i class="star fas fa-star"></i>
+                    <i class="star fas fa-star"></i>
+                    <i class="star fas fa-star"></i>
+                    <i class="star fas fa-star"></i>
+                </div> -->
+                <div class="testimonial-content">
+                    Pagedone is simply the best tool of investment in the market right now.
+                </div>
+
+            </div>
+            <div class="testimonial">
+                <div class="stars">
+                    <i class="star fas fa-star"></i>
+                    <i class="star fas fa-star"></i>
+                    <i class="star fas fa-star"></i>
+                    <i class="star fas fa-star"></i>
+                    <i class="star fas fa-star"></i>
+                </div>
+                <div class="testimonial-content">
+                    I was hesitant to try pagedone at first, but I'm so glad I did - it's exceeded all of my
+                    expectations.
+                </div>
+                <div class="testimonial-author">
+                    <img src="https://via.placeholder.com/50" alt="Harsh P.">
+                    <div>
+                        <span class="name">Harsh P.</span>
+                        <span class="title">Product Designer</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="stars">
+                    <i class="star fas fa-star"></i>
+                    <i class="star fas fa-star"></i>
+                    <i class="star fas fa-star"></i>
+                    <i class="star fas fa-star"></i>
+                    <i class="star fas fa-star"></i>
+                </div>
+                <div class="testimonial-content">
+                    Pagedone stands out as the most user-friendly and effective solution I've ever used.
+                </div>
+                <div class="testimonial-author">
+                    <img src="https://via.placeholder.com/50" alt="Alex K.">
+                    <div>
+                        <span class="name">Alex K.</span>
+                        <span class="title">Design Lead</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const testimonials = document.querySelectorAll('.testimonial');
+        let currentTestimonial = 0;
+
+        function nextTestimonial() {
+            testimonials[currentTestimonial].classList.remove('active');
+            currentTestimonial = (currentTestimonial + 1) % testimonials.length;
+            testimonials[currentTestimonial].classList.add('active');
+        }
+
+        function prevTestimonial() {
+            testimonials[currentTestimonial].classList.remove('active');
+            currentTestimonial = (currentTestimonial - 1 + testimonials.length) % testimonials.length;
+            testimonials[currentTestimonial].classList.add('active');
+        }
+    </script>
+
+
+
+
     <div>
         <div class="w3-container">
             <h2>Slideshow Indicators</h2>
