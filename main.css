@@ -232,23 +232,6 @@ nav .navbar-buttons .btn:hover {
     height: 1.4em;
 }
 
-/*  ---------------------------------------
-    |             F O O T E R             |
-    ---------------------------------------  */
-
-.footer .footer-body {
-    background-color: var(--bs-primary) !important;
-    color: var(--bs-secondary-color) !important;
-}
-
-.footer ul {
-    font-family: var(--bs-font-paragraph) !important;
-}
-
-.footer .social-media svg {
-    width: 24px;
-    height: 24px;
-}
 
 
 
@@ -258,7 +241,8 @@ nav .navbar-buttons .btn:hover {
     color: var(--bs-primary) !important;
 }
 
-.feature h3, .feature p {
+.feature h3,
+.feature p {
     background-color: var(--bs-secondary-color);
     color: var(--bs-primary) !important;
 }
@@ -275,79 +259,79 @@ nav .navbar-buttons .btn:hover {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-  }
+}
 
-  .testimonials {
+.testimonials {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
+}
 
-  .testimonial {
+.testimonial {
     display: none;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 10px;
     margin-bottom: 20px;
-  }
+}
 
-  .testimonial.active {
+.testimonial.active {
     display: block;
-  }
+}
 
-  .testimonial-content {
+.testimonial-content {
     margin-bottom: 10px;
-  }
+}
 
-  .testimonial-author {
+.testimonial-author {
     display: flex;
     align-items: center;
-  }
+}
 
-  .testimonial-author img {
+.testimonial-author img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     margin-right: 10px;
-  }
+}
 
-  .testimonial-author .name {
+.testimonial-author .name {
     font-weight: bold;
-  }
+}
 
-  .testimonial-author .title {
+.testimonial-author .title {
     font-size: 14px;
     color: #777;
-  }
+}
 
-  .stars {
+.stars {
     display: flex;
     margin-bottom: 10px;
-  }
+}
 
-  .star {
+.star {
     font-size: 20px;
     color: #ffc107;
-  }
+}
 
-  .controls {
+.controls {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-  }
+}
 
-  .control {
+.control {
     padding: 10px 15px;
     background-color: #eee;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
+}
 
-  .control:hover {
+.control:hover {
     background-color: #ddd;
-  }
+}
 
 
 
@@ -442,3 +426,22 @@ button:hover,
 a:hover {
     opacity: 0.7;
 } */
+
+
+/*  ---------------------------------------
+    |             F O O T E R             |
+    ---------------------------------------  */
+
+footer .footer-body {
+    background-color: var(--bs-primary) !important;
+    color: var(--bs-secondary-color) !important;
+}
+
+footer ul {
+    font-family: var(--bs-font-paragraph) !important;
+}
+
+footer .social-media svg {
+    width: 24px;
+    height: 24px;
+}
