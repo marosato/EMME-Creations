@@ -87,16 +87,6 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#clients" class="nav-link text-black">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
-                                    class="bi bi-people-fill d-block mx-auto mb-1" viewBox="0 0 16 16">
-                                    <path
-                                        d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
-                                </svg>
-                                Clientes
-                            </a>
-                        </li>
-                        <li class="nav-item">
                             <a href="#services" class="nav-link text-black">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                                     class="bi bi-briefcase-fill d-block mx-auto mb-1" viewBox="0 0 16 16">
@@ -106,6 +96,16 @@
                                         d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85z" />
                                 </svg>
                                 Servicios
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#clients" class="nav-link text-black">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    class="bi bi-people-fill d-block mx-auto mb-1" viewBox="0 0 16 16">
+                                    <path
+                                        d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
+                                </svg>
+                                Clientes
                             </a>
                         </li>
                         <li class="nav-item">
@@ -415,57 +415,66 @@
     </section> -->
 
 
-    <!-- TESTIMONIALS -->
 
-    <div class="container">
-        <h2> Testimonios </h2>
-        <div class="testimonials">
-            <div class="testimonial active">
-                <div class="testimonial-author">
-                    <img src="clients\Luma Seguro\Luma Seguro - Logo.jpg" alt="Luma Seguro">
-                    <div>
-                        <span class="name"> Luma Seguro </span>
-                        <span class="title"> Asesor de Seguros </span>
+
+    <!-- TESTIMONIALS -->
+    <!-- <section class="services px-4 py-5 rounded-3" id="services">
+        <h1 class="display-5 fw-bold pb-2 py-0 text-center"> Testimonios </h1>
+        <div class="container">
+            <h2></h2>
+            <div class="testimonials">
+                <div class="testimonial active">
+                    <div class="testimonial-author">
+                        <img src="clients\Luma Seguro\Luma Seguro - Logo.jpg" alt="Luma Seguro">
+                        <div>
+                            <span class="name"> Luma Seguro </span>
+                            <span class="title"> Asesor de Seguros </span>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        ...
                     </div>
                 </div>
-                <!-- <div class="stars">
-                    <i class="star fas fa-star"></i>
-                    <i class="star fas fa-star"></i>
-                    <i class="star fas fa-star"></i>
-                    <i class="star fas fa-star"></i>
-                    <i class="star fas fa-star"></i>
-                </div> -->
-                <div class="testimonial-content">
-                    ...
-                </div>
-            </div>
-            <div class="testimonial">
-                <div class="testimonial-author">
-                    <img src="https://via.placeholder.com/50" alt="Harsh P.">
-                    <div>
-                        <span class="name"> Cliente </span>
-                        <span class="title"> Rol </span>
+                <div class="testimonial">
+                    <div class="testimonial-author">
+                        <img src="https://via.placeholder.com/50" alt="Harsh P.">
+                        <div>
+                            <span class="name"> Cliente </span>
+                            <span class="title"> Rol </span>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        ...
                     </div>
                 </div>
-                <div class="testimonial-content">
-                    ...
+                <div class="controls">
+                    <button class="control prev" onclick="prevTestimonial()">&lt;</button>
+                    <button class="control next" onclick="nextTestimonial()">&gt;</button>
                 </div>
-                <!-- <div class="stars">
-                    <i class="star fas fa-star"></i>
-                    <i class="star fas fa-star"></i>
-                    <i class="star fas fa-star"></i>
-                    <i class="star fas fa-star"></i>
-                    <i class="star fas fa-star"></i>
-                </div> -->
-            </div>
-            <div class="controls">
-                <button class="control prev" onclick="prevTestimonial()">&lt;</button>
-                <button class="control next" onclick="nextTestimonial()">&gt;</button>
             </div>
         </div>
-    </div>
 
-    <script>
+        <script>
+            const testimonials = document.querySelectorAll('.testimonial');
+            let currentTestimonial = 0;
+
+            function nextTestimonial() {
+                testimonials[currentTestimonial].classList.remove('active');
+                currentTestimonial = (currentTestimonial + 1) % testimonials.length;
+                testimonials[currentTestimonial].classList.add('active');
+            }
+
+            function prevTestimonial() {
+                testimonials[currentTestimonial].classList.remove('active');
+                currentTestimonial = (currentTestimonial - 1 + testimonials.length) % testimonials.length;
+                testimonials[currentTestimonial].classList.add('active');
+            }
+        </script>
+
+        </div>
+    </section> -->
+    <!-- Testimonials Script -->
+    <!-- <script>
         const testimonials = document.querySelectorAll('.testimonial');
         let currentTestimonial = 0;
 
@@ -480,7 +489,9 @@
             currentTestimonial = (currentTestimonial - 1 + testimonials.length) % testimonials.length;
             testimonials[currentTestimonial].classList.add('active');
         }
-    </script>
+    </script> -->
+
+
 
 
 
