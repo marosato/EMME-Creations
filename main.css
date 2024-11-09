@@ -467,8 +467,8 @@ a:hover {
     background-color: #c6a15a !important;
 }
 
-#pricing #plan-premium-1 h4, #pricing #plan-premium-1 h1,
-#pricing #plan-premium-2 h4, #pricing #plan-premium-2 h1, {
+#pricing #plan-premium-1 .card-header h4, #pricing #plan-premium-1 .card-body h1,
+#pricing #plan-premium-2 .card-header h4, #pricing #plan-premium-2 .card-body h1, {
     color: var(--bs-secondary-color) !important;
 }
 
