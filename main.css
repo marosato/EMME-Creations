@@ -48,6 +48,7 @@ h6 * {
     letter-spacing: 0.06em;
 }
 
+ul,
 p {
     font-family: var(--bs-font-paragraph) !important;
     color: var(--bs-secondary-color) !important;
@@ -464,6 +465,11 @@ a:hover {
     border-width: 5px;
     border-color: var(--bs-primary) !important;
     background-color: #c6a15a !important;
+}
+
+#pricing #plan-premium-1 h4, #pricing #plan-premium-1 h1,
+#pricing #plan-premium-2 h4, #pricing #plan-premium-2 h1, {
+    color: var(--bs-secondary-color) !important;
 }
 
 #pricing #plan-premium-1 button,
