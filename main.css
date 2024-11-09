@@ -48,7 +48,6 @@ h6 * {
     letter-spacing: 0.06em;
 }
 
-ul,
 p {
     font-family: var(--bs-font-paragraph) !important;
     color: var(--bs-secondary-color) !important;
@@ -446,6 +445,10 @@ a:hover {
 #pricing .pricing-card h1,
 #pricing .pricing-card h4,
 #pricing .pricing-card small {
+    color: var(--bs-primary) !important;
+}
+
+#pricing .pricing-card .card-body ul {
     color: var(--bs-primary) !important;
 }
 
