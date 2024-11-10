@@ -53,8 +53,47 @@
 
 <body>
 
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg py-3 fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand display-5" href="https://emmecreations.netlify.app/"> EMME CREATIONS </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16"
+                        style="display: none;">
+                        <path fill-rule="evenodd"
+                            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="nav col-12 col-lg-auto my-2 mx-auto my-md-0 justify-content-center">
+                    <!-- <li class="nav-item">
+                        <a href="#home" class="nav-link active text-secondary">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                class="bi bi-house-door-fill d-block mx-auto mb-1" viewBox="0 0 16 16">
+                                <path
+                                    d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5" />
+                            </svg>
+                            Inicio
+                        </a>
+                    </li> -->
+                </ul>
+                <div class="navbar-buttons d-grid gap-2 d-md-flex justify-content-md-end">
+                    <a class="btn btn-primary" href="#login.html" role="button"> Iniciar Sesión </a>
+                    <a class="btn btn-primary" href="#signup.html" role="button"> Registrarse </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <!-- PRICING LIST -->
-    <section class="container-xxl py-3 pricing-list" id="pricing">
+    <section class="container-xxl py-3 mt-5 pricing-list" id="pricing">
         <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
             <h1 class="display-4 fw-normal"> Elige tu plan </h1>
             <p class="fs-5 text-body-secondary">
@@ -130,8 +169,7 @@
                         <ul class="list-unstyled mt-3 mb-4">
                             <li class="fw-bold"> Lunes a Viernes: </li>
                             <li> 4 posteos semanales </li>
-                            <li> 3 reels mensuales </li>
-                            <li> </li>
+                            <li class="mb-5"> 3 reels mensuales </li>
                         </ul>
                         <button type="button" class="w-100 btn btn-lg btn-outline-primary"> Empezar </button>
                     </div>
@@ -139,7 +177,7 @@
             </div>
             <div class="col">
                 <div class="pricing-card mb-4 rounded-3 shadow-sm border-primary" id="plan-premium-1">
-                    <div class="card-header py-3 text-bg-primary border-primary">
+                    <div class="card-header py-3 border-primary">
                         <h4 class="my-1 fw-normal"> Plan Premium 1 </h4>
                     </div>
                     <div class="card-body mt-2">
@@ -158,7 +196,7 @@
             </div>
             <div class="col">
                 <div class="pricing-card mb-4 rounded-3 shadow-sm border-primary" id="plan-premium-2">
-                    <div class="card-header py-3 text-bg-primary border-primary">
+                    <div class="card-header py-3 border-primary">
                         <h4 class="my-1 fw-normal"> Plan Premium 2 </h4>
                     </div>
                     <div class="card-body mt-2">
@@ -185,7 +223,7 @@
                                 class="text-body-secondary fw-light"></small>
                         </h1>
                         <ul class="list-unstyled mt-3 mb-4">
-                            <li class="mb-3">
+                            <li class="mb-5">
                                 * Cualquier cambio adicional requiere un costo extra fuera del plan seleccionado.
                             </li>
                         </ul>

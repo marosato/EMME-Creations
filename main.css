@@ -2,7 +2,8 @@
     --bs-body-bg: #140408 !important;
     --bs-primary: #43071a !important;
     --bs-secondary-color: #eee2e4 !important;
-    --bs-tertiary-bg: #65474e !important;
+    /* --bs-tertiary-bg: #65474e !important; */
+    --bs-pricing-card: #c6a15a !important;
     --bs-font-title: 'Anton' !important;
     --bs-font-paragraph: 'Poppins' !important;
     /* --bs-font-sans-serif: 'Anton', 'Anton SC', 'Poppins' !important; */
@@ -465,14 +466,15 @@ a:hover {
 
 #pricing #plan-premium-1,
 #pricing #plan-premium-2 {
-    border-width: 5px;
     border-color: var(--bs-primary) !important;
-    background-color: #c6a15a !important;
+    background-color: var(--bs-pricing-card) !important;
 }
 
-#pricing #plan-premium-1 .card-header h4, #pricing #plan-premium-1 .card-body h1,
-#pricing #plan-premium-2 .card-header h4, #pricing #plan-premium-2 .card-body h1, {
-    color: var(--bs-secondary-color) !important;
+#pricing #plan-premium-1 .card-header h4,
+#pricing #plan-premium-1 .card-body h1,
+#pricing #plan-premium-2 .card-header h4,
+#pricing #plan-premium-2 .card-body h1 {
+    color: var(--bs-primary);
 }
 
 #pricing #plan-premium-1 button,
@@ -486,13 +488,12 @@ a:hover {
 }
 
 #pricing #plan-premium-1 .card-header.text-bg-primary {
-    background-color: #c6a15a !important;
+    background-color: var(--bs-pricing-card);
 }
 
 #pricing #plan-premium-2 .card-header.text-bg-primary {
-    background-color: #c6a15a !important;
+    background-color: var(--bs-pricing-card);
 }
-
 
 /*  ---------------------------------------
     |             F O O T E R             |
