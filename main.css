@@ -237,34 +237,36 @@ nav .navbar-buttons .btn:hover {
     height: 1.4em;
 }
 
-#services .card-services {
+#services .services-card {
     color: var(--bs-body-bg);
 }
 
-#services .card-services .service-icon {
+#services .services-card .service-icon {
     color: var(--bs-primary) !important;
 }
 
-#services .card-services h3,
-#services .card-services p {
+#services .services-card .icon-link:hover {
+    color: var(--bs-secondary-color) !important;
+    background-color: var(--bs-primary) !important;
+}
+
+#services .services-card h3,
+#services .services-card p {
     color: var(--bs-primary) !important;
 }
 
-
-
-
-.feature {
+#services .services-card {
     background-color: var(--bs-secondary-color);
     color: var(--bs-primary) !important;
 }
 
-.feature h3,
-.feature p {
+#services .services-card h3,
+#services .services-card p {
     background-color: var(--bs-secondary-color);
     color: var(--bs-primary) !important;
 }
 
-.feature .feature-icon svg {
+#services .services-card .feature-icon svg {
     width: 1.4em;
     height: 1.4em;
     color: var(--bs-primary) !important;
