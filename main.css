@@ -2,7 +2,7 @@
     --bs-body-bg: #140408 !important;
     --bs-primary: #43071a !important;
     --bs-secondary-color: #eee2e4 !important;
-    /* --bs-tertiary-bg: #65474e !important; */
+    --bs-tertiary-bg: #65474e !important;
     --bs-pricing-card: #c6a15a !important;
     --bs-font-title: 'Anton' !important;
     --bs-font-paragraph: 'Poppins' !important;
@@ -224,6 +224,10 @@ nav .navbar-buttons .btn:hover {
     |             S E R V I C E S             |
     -------------------------------------------  */
 
+#services {
+    background-color: var(--bs-primary) !important;
+}
+
 #services .services-body {
     background-color: var(--bs-primary) !important;
 }
@@ -233,6 +237,18 @@ nav .navbar-buttons .btn:hover {
     height: 1.4em;
 }
 
+#services .card-services {
+    color: var(--bs-body-bg);
+}
+
+#services .card-services .service-icon {
+    color: var(--bs-primary) !important;
+}
+
+#services .card-services h3,
+#services .card-services p {
+    color: var(--bs-primary) !important;
+}
 
 
 
@@ -254,128 +270,28 @@ nav .navbar-buttons .btn:hover {
     color: var(--bs-primary) !important;
 }
 
+/*  -----------------------------------------
+    |             C L I E N T S             |
+    -----------------------------------------  */
 
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.testimonials {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.testimonial {
-    display: none;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.testimonial.active {
-    display: block;
-}
-
-.testimonial-content {
-    margin-bottom: 10px;
-}
-
-.testimonial-author {
-    display: flex;
-    align-items: center;
-}
-
-.testimonial-author img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 10px;
-}
-
-.testimonial-author .name {
-    font-weight: bold;
-}
-
-.testimonial-author .title {
-    font-size: 14px;
-    color: #777;
-}
-
-.stars {
-    display: flex;
-    margin-bottom: 10px;
-}
-
-.star {
-    font-size: 20px;
-    color: #ffc107;
-}
-
-.controls {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.control {
-    padding: 10px 15px;
-    background-color: #eee;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.control:hover {
-    background-color: #ddd;
-}
-
-
-
-.services {
+#clients {
     background-color: var(--bs-primary) !important;
 }
 
-.services .card-services {
-    color: var(--bs-body-bg);
-    background-color: var(--bs-secondary-color) !important;
-}
-
-.services .card-services .service-icon {
-    border-color: blue !important;
-    color: var(--bs-primary) !important;
-    background-color: var(--bs-primary) !important;
-}
-
-.services .card-services h3,
-.services .card-services p {
-    color: var(--bs-primary) !important;
-}
-
-
-
-.clients {
-    background-color: var(--bs-primary) !important;
-}
-
-.clients-slider img {
+#clients .clients-slider img {
     width: 100px;
     height: 100px;
     animation: scroll 30s linear infinite;
 }
 
-.slide-track {
+#clients .slide-track {
     width: 100%;
     display: flex;
     gap: 3em;
     overflow: hidden;
 }
 
-.clients-slider {
+#clients .clients-slider {
     background-color: var(--bs-secondary-color);
     padding: 1em 2em;
 }
@@ -389,45 +305,6 @@ nav .navbar-buttons .btn:hover {
         transform: translatex(-1000%)
     }
 }
-
-
-
-/* .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-}
-
-.title {
-    color: grey;
-    font-size: 18px;
-}
-
-button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-}
-
-a {
-    text-decoration: none;
-    font-size: 22px;
-    color: black;
-}
-
-button:hover,
-a:hover {
-    opacity: 0.7;
-} */
-
 
 /*  -----------------------------------------
     |             P R I C I N G             |
