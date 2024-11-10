@@ -389,3 +389,7 @@ footer .social-media svg {
     width: 24px;
     height: 24px;
 }
+
+footer .social-media .footer-credits {
+    color: var(--bs-secondary-color) !important;
+}
